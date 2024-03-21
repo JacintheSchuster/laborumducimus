@@ -1,0 +1,97 @@
+{
+  "name": "laborumducimus",
+  "version": "1.0.0",
+  "description": "Solana Javascript API",
+  "keywords": [
+    "nobis",
+    "blockchain"
+  ],
+  "license": "MIT",
+  "author": "KirstinThiel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JacintheSchuster/laborumducimus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JacintheSchuster/laborumducimus.git/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "bin": {
+    "solana-bpf-sdk-install": "bin/bpf-sdk-install.sh",
+    "solana-localnet": "bin/localnet.sh"
+  },
+  "testnetDefaultChannel": "edge",
+  "files": [
+    "/bin",
+    "/doc",
+    "/examples",
+    "/bpf-sdk",
+    "/lib",
+    "/module.flow.js",
+    "/src"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "bn.js": "^5.0.0",
+    "bs58": "^4.0.1",
+    "buffer-layout": "^1.2.0",
+    "esdoc-inject-style-plugin": "^1.0.0",
+    "jayson": "^3.0.1",
+    "mz": "^2.7.0",
+    "node-fetch": "^2.2.0",
+    "npm-run-all": "^4.1.5",
+    "rpc-websockets": "^4.3.3",
+    "superstruct": "^0.6.0",
+    "tweetnacl": "^1.0.0",
+    "ws": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-proposal-function-bind": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-flow": "^7.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "@commitlint/travis-cli": "^8.0.0",
+    "acorn": "^7.0.0",
+    "babel-eslint": "10.0.3",
+    "babel-plugin-module-resolver": "3.2.0",
+    "codecov": "^3.0.4",
+    "cross-env": "5.2.1",
+    "elfy": "^0.1.0",
+    "enzyme": "3.10.0",
+    "esdoc": "^1.1.0",
+    "esdoc-ecmascript-proposal-plugin": "^1.0.0",
+    "esdoc-flow-type-plugin": "^1.1.0",
+    "esdoc-importpath-plugin": "^1.0.2",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "6.3.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jest": "22.16.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "flow-bin": "0.106.3",
+    "flow-typed": "2.6.1",
+    "fs-file-tree": "1.0.7",
+    "jest": "24.9.0",
+    "marked": "^0.7.0",
+    "prettier": "^1.14.3",
+    "rimraf": "3.0.0",
+    "rollup": "1.15.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.2.1",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-replace": "2.2.0",
+    "rollup-plugin-terser": "^5.0.0",
+    "semantic-release": "^15.9.16",
+    "watch": "^1.0.2"
+  }
+}
